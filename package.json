@@ -1,0 +1,24 @@
+{
+  "name": "inputs_html",
+  "version": "1.0.0",
+  "description": "Utilização de inputs para capturar dados do usuário.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicole-rcosta/inputs_html.git"
+  },
+  "keywords": [
+    "inputs",
+    "formulário",
+    "html"
+  ],
+  "author": "Nicole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicole-rcosta/inputs_html/issues"
+  },
+  "homepage": "https://github.com/nicole-rcosta/inputs_html#readme"
+}
