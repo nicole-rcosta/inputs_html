@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main class="main-container">
+        <h1>Catálogo de Inputs HTML</h1>
+        <P>Um formulário de exemplo para demonstrar os diferentes tipos de inputs e seus atributos</P>
+
+        <!--  Indica que será um formulário de envio de dados -->
+        <form class="input-catalog-form">
+
+            <section class="form-section">
+                <!-- Criar agrupamento no formulário -->
+                <fieldset class="form-group">
+
+                    <!-- Legenda para o grupo de itens do formulário -->
+                     <legend class="form-group-title">Dados Pessoais e Texto</legend>
+
+                     <label for="nome" class="form-label">Nome:</label>
+                     <input type="text" id="nome" name="nome" class="form-input" placeholder="Digite seu nome completo" required minlength="3" />
+
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input type="password" id="senha" name="senha" class="form-input" placeholder="Mínimo de 8 caracteres" required minlength="8" />
+
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="exemplo@dominio.com" required />
+
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" class="form-input" placeholder="(99)99999-9999" />
+
+                    <label for="site" class="form-label">URL do seu site:</label>
+                    <input type="url" id="site" name="site" class="form-input" placeholder="https://www.seusite.com">
+
+                    <label for="pesquisa" class="form-label">Pesquisa:</label>
+                    <input type="search" id="pesquisa" name="pesquisa" class="form-input" placeholder="Busque um termo...">
+
+
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="form-group">
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="form-group">
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="form-group">
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="form-group">
+                </fieldset>
+            </section>
+
+            <section class="form-section">
+                <fieldset class="form-group">
+                </fieldset>
+            </section>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
