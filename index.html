@@ -136,13 +136,32 @@
                 </fieldset>
             </section>
 
+
+            <!-- Arquivos e cores -->
             <section class="form-section">
                 <fieldset class="form-group">
+                    <legend class="form-group-title">Arquivos e cores:</legend>
+
+                    <label for="cor-favorita" class="form-label">Cor Favorita:</label>
+                    <input type="color" id="cor-favorita" name="cor-favorita" class="form-color-picker" value="#4a90e2">
+
+                    <label for="foto-perfil" class="form-label">Foto de Perfil:</label>
+                    <input type="file" id="foto-perfil" name="foto-perfil" class="form-file-input" accept="image/png, image/jpeg">
+
                 </fieldset>
             </section>
 
+            <!-- Controles de formulário -->
             <section class="form-section">
                 <fieldset class="form-group">
+                    <legend class="form-group-title">Controles do Formulário</legend>
+
+                    <div class="form-controls">
+                        <input type="submit" value="Enviar Formulário" class="form-buttom submit-buttom"/>
+                        <input type="reset" value="Limpar Tudo" class="form-buttom reset-buttom"/>
+                        <input type="button" value="Botão Genérico" class="form-buttom action-buttom" onclick="alert ('Botão clicado!')"/>
+
+                    </div>
                 </fieldset>
             </section>
 
